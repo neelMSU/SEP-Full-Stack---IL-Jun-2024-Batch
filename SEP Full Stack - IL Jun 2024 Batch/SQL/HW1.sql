@@ -72,9 +72,4 @@ FROM Products
 WHERE QuantityPerUnit IS NOT NULL
 ORDER BY QuantityPerUnit DESC;
 
-SELECT DISTINCT CategoryID, QuantityPerUnit
-FROM Products
-WHERE CategoryID IS NOT NULL AND QuantityPerUnit IS NOT NULL
-ORDER BY CategoryID, QuantityPerUnit;
-
 
